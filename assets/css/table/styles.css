@@ -1,0 +1,162 @@
+body {
+    background: url("../../../images/page-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.main  .header {
+    display: none !important;
+}
+
+body:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .6);
+}
+
+.wrapper,
+.container {
+    height: inherit;
+}
+
+.container {
+    padding: 2vw 2vw .5vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 454px;
+    width: 70%;
+}
+
+.table-no {
+    display: table;
+    margin-top: 2vw;
+    margin-bottom: 4.5vw;
+    padding: 1.5vw 3vw;
+    border: 1px #fff solid;
+    font-family: "Open Sans";
+    font-size: 3.1vw;
+    font-weight: 700;
+    color: #fff;
+}
+
+.choice-to-do > div {
+    display: inline-block;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+.choice-to-do a {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 437px;
+    max-height: 437px;
+    width: 20vw;
+    height: 20vw;
+    background-size: cover;
+}
+
+.le-garson {
+    background: url("../../../images/le-garcon-icon.png");
+}
+
+.my-bill-please {
+    background: url("../../../images/my-bill-please-icon.png");
+}
+
+.choice-to-do span {
+    display: block;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 3.1vw;
+    font-weight: 700;
+    color: #fff;
+}
+
+.copyright {
+    margin-top: 2vw;
+    font-family: Roboto;
+    font-size: 1.55vw;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+    align-self: flex-end;
+}
+
+.copyright a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 414px) and (max-width: 736px) {
+    .container {
+        padding-top: 1vw;
+        justify-content: space-evenly;
+    }
+
+    .logo img {
+        width: 30%;
+    }
+
+    .table-no {
+        margin-top: .5vw;
+        margin-bottom: 1vw;
+    }
+
+    .choice-to-do a {
+        width: 10vw;
+        height: 10vw;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .table-no {
+        padding: 3vw 6vw;
+        font-size: 6vw;
+    }
+
+    .choice-to-do {
+        text-align: center;
+    }
+
+    .choice-to-do > div {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 25px;
+    }
+
+    .choice-to-do a {
+        width: 20vh;
+        height: 20vh;
+    }
+
+    .choice-to-do span {
+        font-size: 6.2vw;
+    }
+
+    .copyright {
+        font-size: 3.1vw;
+    }
+}
+.timer {
+    font-size: 70px;
+    color: white;
+}

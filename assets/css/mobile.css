@@ -1,0 +1,25 @@
+.dishes-list {
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    height: calc(100vh - 160px);
+    padding-right: 10px;
+}
+
+#sidebar .content{
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: calc(100vh - 70px) !important;
+    padding-right: 10px;
+}
+.menu-ad{
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.sidebar .left-nav-menu a:hover:before,
+.sidebar .left-nav-menu .active:before {
+    font-size: 2em !important;
+    top: 4px;
+}

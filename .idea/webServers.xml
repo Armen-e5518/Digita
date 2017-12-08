@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="45395dcb-e08a-41ad-9ce6-6ea2cf0ec66d" name="Menue" url="http://ftp.digitalmenu.be">
+        <fileTransfer host="ftp.digitalmenu.be" port="21" rootFolder="/demo4">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
